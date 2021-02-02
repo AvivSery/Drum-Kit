@@ -1,0 +1,91 @@
+
+#myDrumKit{
+  position: relative;
+  /* width:100%;
+  max-width: 1500px; */
+}
+
+#drum-kit-img{
+
+  width: 30%;
+  height: 1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
+    
+}
+#heading{
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    color: #1879CE;
+    font-size: 3em;
+}
+
+button{
+  min-width: 20px;
+  min-height: 20px;
+  width: 2%;
+  height: 5%;
+  z-index: 1;
+  /* font-size:75%; */
+  cursor: pointer;
+  position: absolute;
+
+}
+/* button:active{
+  color: red;
+  
+} */
+.btn:active{
+  color:red;
+}
+
+
+#e{
+  top: 8%;
+  left: 39%;
+}
+#r{
+  top: 8%;
+  left: 42%;
+}
+
+#i{
+  top: 9%;
+  left: 54%;
+}
+#k{
+  top: 25%;
+  left: 58%;
+}
+#f{
+  top: 47%;
+  left: 42%;
+}
+#g{
+  top: 33%;
+  left: 46%;
+}
+#h{
+  top: 33%;
+  left: 52%;
+}
+#v{
+  top: 65%;
+  left: 49%;
+}
+#b{
+  top: 65%;
+  left: 54%;
+}
+#j{
+  top: 45%;
+  left: 54%;
+}
+.playing{
+  transform: scale(1.35);
+  /* border-color:#ffc600; */
+  box-shadow: 0 0 10px #3D0610;
+}
